@@ -10,11 +10,13 @@ while a<=b:
         if a%i==0 :
             flag=True
             break
-    if a<=1:
+    if a<1:
         print(a,"is composite or not prime")
         comp+=1
         a+=1
         continue
+    elif a==1:
+        print("1 is neither composite nor prime")    
     elif flag:
         print(a,"is composite or not prime")
         comp+=1
