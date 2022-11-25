@@ -16,7 +16,7 @@ while a<=b:
         a+=1
         continue
     elif a==1:
-        print("1 is neither composite nor prime")    
+        print("1 is neither composite nor prime")
     elif flag:
         print(a,"is composite or not prime")
         comp+=1
